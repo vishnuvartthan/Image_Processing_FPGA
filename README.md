@@ -39,7 +39,7 @@ Performs the averaging filter operation over a 3×3 window by summing pixel valu
 - Implemented with 2-cycle latency (multiply → sum/output)
 
 
-## 7×7 Box Blur IP
+## 7×7 Mean Filter IP
 To extend functionality, 7×7 box blur IP that supports **24-bit RGB images** and higher resolutions (up to **1024×1024**).
 
 - Support for larger kernel size and deeper window generation logic.
